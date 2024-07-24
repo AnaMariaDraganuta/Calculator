@@ -5,32 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator </title>
     <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
     <h1>Calculator </h1>
 
     <div class="calculator">
-        <input class="input-text" type="text"  disabled>
-        <button class="red">Ac</button>
-        <button class="red">C</button>
-        <button class="orange">%</button>
-        <button class="orange">/</button>
-        <button>7</button>
-        <button>8</button>
-        <button>9</button>
-        <button class="orange">*</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
-        <button class="orange">-</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button class="orange">+</button>
-        <button>00</button>
-        <button>0</button>
-        <button>.</button>
-        <button class="orange">=</button>
+        <input type="text" id="result" disabled>
+        <button class="red" onclick="clearResult()">Ac</button>
+        <button class="red" onclick="clearResult()">C</button>
+        <button class="orange" onclick="getResult('%')">%</button>
+        <button class="orange" onclick="getResult('/')">/</button>
+        <button onclick="getResult('7')">7</button>
+        <button onclick="getResult('8')">8</button>
+        <button onclick="getResult('9')">9</button>
+        <button class="orange" onclick="getResult('*')">*</button>
+        <button onclick="getResult('4')">4</button>
+        <button onclick="getResult('5')">5</button>
+        <button onclick="getResult('6')">6</button>
+        <button class="orange" onclick="getResult('-')">-</button>
+        <button onclick="getResult('1')">1</button>
+        <button onclick="getResult('2')">2</button>
+        <button onclick="getResult('3')">3</button>
+        <button class="orange" onclick="getResult('+')">+</button>
+        <button onclick="getResult('00')">00</button>
+        <button onclick="getResult('0')">0</button>
+        <button onclick="getResult('.')">.</button>
+        <button class="orange" onclick="getResult('=')">=</button>
       </div>
 
 
