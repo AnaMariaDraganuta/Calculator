@@ -1,0 +1,24 @@
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #fffefe;
+  padding: 40px 0;
+  border-radius: 10px;
+  border: 2px solid;
+}
+
+.red {
+  background-color: #ff4a4a;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.input-text{
+    width: 50%;
+    height: 50px;
+    font-size: 40px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
