@@ -22,4 +22,4 @@ Acesta este un calculator simplu dezvoltat cu HTML, CSS și JavaScript. Proiectu
 
 ## Demo
 
-![Demo](https://github.com/AnaMariaDraganuta/Calculator/blob/main/screenshot-calculator.png)
+![Demo](https://raw.githubusercontent.com/AnaMariaDraganuta/Screenshot/main/calculator.png)
